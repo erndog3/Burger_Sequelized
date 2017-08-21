@@ -1,0 +1,37 @@
+{
+  "name": "burger_sequelized",
+  "version": "1.0.0",
+  "description": "node app using sequelize to create orm to db",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erndog3/Burger_Sequelized.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "handlebars",
+    "express-handlebars",
+    "body-parser"
+  ],
+  "author": "Ernesto Espinoza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erndog3/Burger_Sequelized/issues"
+  },
+  "homepage": "https://github.com/erndog3/Burger_Sequelized#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.9",
+    "mysql": "^2.14.1",
+    "mysql2": "^1.4.1",
+    "sequelize": "^4.6.0"
+  },
+  "devDependencies": {}
+}
