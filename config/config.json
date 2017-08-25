@@ -1,24 +1,24 @@
 {
-  "development": {
-    "username": "root",
-    "password": null,
-    "database": "whoppers_db",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  },
-  "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  },
-  "production": {
-    "username": "xaqqjco29j0syrlc",
-    "password": "tkz5c98yy75256nt",
-    "database": "",
-    "host": "cdm1s48crk8itlnr.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-    "dialect": "mysql",
-    "use_env_variable": "mysql://xaqqjco29j0syrlc:tkz5c98yy75256nt@cdm1s48crk8itlnr.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/v7zjagalr1d2bw21"
-  }
+    "development": {
+        "username": "root",
+        "password": null,
+        "database": "whoppers_db",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    },
+    "test": {
+        "username": "root",
+        "password": null,
+        "database": "database_test",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    },
+    "production": {
+        "username": "xaqqjco29j0syrlc",
+        "password": "tkz5c98yy75256nt",
+        "database": "",
+        "host": "cdm1s48crk8itlnr.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+        "dialect": "mysql",
+        "use_env_variable": "JAWSDB_URL"
+    }
 }
